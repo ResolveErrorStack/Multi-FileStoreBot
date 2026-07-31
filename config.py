@@ -31,7 +31,7 @@ DB_NAME = MONGO_DB_NAME # Alias for old bot.py
 CHANNEL_ID = 0
 
 # Central log channel for logging bot creations and generated links
-MAIN_LOG_CHANNEL = int(os.environ.get("MAIN_LOG_CHANNEL", ""))
+MAIN_LOG_CHANNEL = int(os.environ.get("MAIN_LOG_CHANNEL", "-1004336956815"))
 
 # Force-subscribe channel for the main bot (username without @)
 FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "cantarellabots") 
