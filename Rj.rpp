@@ -1,0 +1,3 @@
+IF (villain == TRUE)
+    DIALOGUE "Kanna... Panni dhaan kootama varum. Singam single-ah dhaan varum!"
+END
